@@ -56,3 +56,19 @@ Return basic HTML page.
 
 Functional tests should help you build an application with the right functionality, and guarantee you never accidentally break it. Unit test should help you to write code that's clean and bug free.
 
+## Chapter 4
+
+Expand selenium functional test for adding to-do list items. Find html elements and send relevant keys.
+
+Refactor to use Django html templates instead. This makes sure we are no longer testing constants and instead whether we are rendering the right template.
+
+Add app to Django settings.
+
+Modify Django Test Client.
+
+### TDD Notes
+
+Unit tests are about testing logic, flow control, and configuration. So we should not be testing constants.
+
+Refactoring is when we try to improve the code *without changing its functionality*.
+
